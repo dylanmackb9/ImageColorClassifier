@@ -1,5 +1,7 @@
 # Image Color Classifier
 
+The purpose of this project was to practice deep learning techniques with simple images, and to compare traditional neural networks with convolutional neural networks in performance and computation time. 
+
 Classifying yellow and blue images based on their color through Deep Learning algorithms. Using a Dense Neural Network and Convolutional Neural Network to compare computation time, hyper parameters, and final loss and accuracy. 
 
 Created 1000 yellow and blue images using python PIL package, and utilized feature extraction to create a feature to recognize pixel value from RGBA value. Split into a training and test set. 
@@ -14,4 +16,4 @@ Convolutional NN: Created 6 layer convolution neural network with two convolutio
 	
 K-fold Cross Validation was used to evaluate model performance on hyper-parameters:  activation function, learning rate, number of training epochs, kernel, and stride. A simple Grid Search algorithm was used to optimize hyper-parameters. 
 	
-The purpose of this was to practice deep learning techniques with simple images, and to compare traditional neural networks with convolutional neural networks in performance and computation time. 
+
